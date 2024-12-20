@@ -1,6 +1,14 @@
 const sumAll = function(number1,number2) {
     let answer = 0;
 
+    if (number1 !== Number){
+        return "ERROR"
+    }
+    
+    if (number2 !== Number){
+        return "ERROR"
+    }
+
     if (number1<0 || number1!=Number(number1)|| number1%1!=0){
         return "ERROR"
     }
